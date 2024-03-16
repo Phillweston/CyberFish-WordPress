@@ -1,0 +1,17 @@
+# Ignore specific WordPress configuration files
+wp-config.php
+
+# Ignore the uploads directory
+wp-content/uploads/
+
+# Ignore the plugins directory
+wp-content/plugins/*
+
+# Do not ignore the plugins directory for the theme shortcodes
+!wp-content/plugins/nt-theme-shortcodes/
+
+# Ignore the .htaccess file
+.htaccess
+
+# Ignore backup file
+wp-content/updraft/
